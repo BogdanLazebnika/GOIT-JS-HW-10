@@ -23,11 +23,11 @@
 
 .container.timer-container{
   width: 450px;
-  margin-left: 120px; /* <<< великий лівий відступ як на демо */
+  margin-left: 120px;
   padding-top: 40px;
 }
 
-/* ====== INPUTS / BUTTONS ====== */
+
 input[type="text"],
 input[type="number"] {
   width: 300px;
@@ -62,7 +62,7 @@ button:disabled {
   cursor: default;
 }
 
-/* ====== TIMER ====== */
+
 .timer {
   display: flex;
   gap: 50px;
@@ -88,7 +88,7 @@ button:disabled {
   color: #666;
 }
 
-/* ====== FORM (Promises) ====== */
+
 .form {
   margin-top: 10px;
   padding-top: 20px;
@@ -108,7 +108,7 @@ button:disabled {
   width: 350px;
 }
 
-/* FIELDSET as on DEMO */
+
 fieldset {
   width: 380px;
   padding: 15px 20px 20px;
@@ -128,7 +128,7 @@ fieldset label {
   font-size: 22px;
 }
 
-/* BUTTON */
+
 .form button {
   width: 380px;
   padding: 12px;
@@ -138,7 +138,6 @@ fieldset label {
   border-radius: 4px;
 }
 
-/* ====== IZI TOAST FIX ====== */
 .iziToast {
   font-size: 18px !important;
 }
